@@ -637,7 +637,11 @@ pre code {
     max-width: 1140px;
   }
 }
-
+*{
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+}
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   width: 100%;
   padding-right: 15px;
