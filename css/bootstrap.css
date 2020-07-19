@@ -51,6 +51,15 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+.cont{
+  display: flex;
+}
+.content p{
+  margin-left: 5px;
+  font-size: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:black;
+}
 
 body {
   color: rgba(12, 12, 12, 0.65);
@@ -85,7 +94,13 @@ body {
   padding: 20px;
   float: right;
   text-orientation: upright;
+  flex: 1;
+  border: 2px solid yellow;
 }
+
+.kid {
+  margin-right: 20px;
+} 
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -98,11 +113,12 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 4px;
+  margin-top: 12px;
   margin-bottom: 0.5rem;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
-  text-shadow: 2px 2px 2px blue;
+  text-shadow: 2px 1px 1px blue;
+  font-size: larger;
 }
 strong, b {
   color: #000000;
