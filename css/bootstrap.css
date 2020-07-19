@@ -67,6 +67,7 @@ body {
   font-size: 13pt;
   font-weight: 200;
   line-height: 1.65;
+  -webkit-text-size-adjust: none;
 }
 .form[type=text], select {
   width: 100%;
@@ -78,9 +79,9 @@ body {
   box-sizing: border-box;
 }
 
-.form[type=submit] {
+.form button {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #ad2424a1;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -636,11 +637,6 @@ pre code {
   .container {
     max-width: 1140px;
   }
-}
-*{
-  background-image: url('images/bg.jpg');
-  background-size: cover;
-  background-repeat:no-repeat;
 }
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   width: 100%;
