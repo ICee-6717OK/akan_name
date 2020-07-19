@@ -20,6 +20,5 @@ e-mail: okumuisidore@gmail.com
 Twitter: @KiptoOtieno
 
 License.
-Copyright © 2020 Isidore K. Otieno. All Rights Reserved.
-
+Copyright © 2020 Isidore K. Otieno. All Rights Reserved
 
