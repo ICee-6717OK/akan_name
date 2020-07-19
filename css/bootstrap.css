@@ -119,9 +119,17 @@ p {
   margin-left:3px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.footer{
+#footer {
   text-align: center;
-  object-position: bottom;
+  padding: 4em 0 4em 0;
+}
+
+#footer:before {
+  content: '';
+  border-top: solid 1px rgba(255, 255, 255, 0.25);
+  width: 10em;
+  display: block;
+  margin: 0 auto 3em auto;
 }
 input[type=text] {
   width: 100%;
