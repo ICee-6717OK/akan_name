@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <title>Akan Names</title>
+  </head>
+  <body>
+    <h1>Akan Names.</h1>
+    <div>
+      <form>
+        <label for="date">Birthday</label>
+        <input type="number" name="year" id="year" placeholder="Year">
+        <input type="number" name="month" id="month" placeholder="Month">
+        <input type="number" name="day" id="day" placeholder="day">
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" required>
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female" required>
+
+        <button onclick="giveAkanName()">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
