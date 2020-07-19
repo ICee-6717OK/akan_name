@@ -14,27 +14,27 @@ function giveAkanName () {
     // var validateGender = (gender !== "male" && gender !== "female");
 
     if (year <= 1800 ) {
-        alert("Invalid year");
-    }
-    else if (month <= 0 || month > 12) {
-        alert("Month is between 1 and 12");
-    }
-    else if (day <= 0 || day > 31){
-        alert("Date is between 1 and 31");
-    }
+      alert("Invalid year");
+  }
+  else if (month <= 0 || month > 12) {
+      alert("Month is between 1 and 12");
+  }
+  else if (day <= 0 || day > 31){
+      alert("Date is between 1 and 31");
+  }
 
-    else if (validate == false) {
-        alert("Invalid Input!!");
-    }
-   
-    if(gender ==="male" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
-        akanName = maleNames[dayBorn];
-    alert("You were born on "+dayOfTheWeek[dayBorn]+ " and your Akan name is "+akanName);
+  else if (validate == false) {
+      alert("Invalid Input!!");
+  }
+ 
+  if(gender ==="male" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
+      akanName = maleNames[dayBorn];
+  alert("You were born on "+dayOfTheWeek[dayBorn]+ " and your Akan name is "+akanName);
 
-    }
-    else if (gender ==="female" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
-        akanName = femaleNames[dayBorn];
-    alert("You were born on "+dayOfTheWeek[dayBorn]+ " and your Akan name is "+akanName);
+  }
+  else if (gender ==="female" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
+      akanName = femaleNames[dayBorn];
+  alert("You were born on "+dayOfTheWeek[dayBorn]+ " and your Akan name is "+akanName);
 
     }
 }
